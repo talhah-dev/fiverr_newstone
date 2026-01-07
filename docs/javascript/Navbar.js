@@ -1,7 +1,17 @@
 const navbar = document.getElementById("navbar");
 
 navbar.innerHTML = `
+
     <nav class="fixed top-0 left-0 w-full bg-white z-40">
+    <a
+  href="https://licensing.fdacs.gov/access/individual.aspx?TYPE=INDIVIDUAL&CATEGORY=&COUNTY=00&LICENSE=C%203500489&STATUS=IND_DETAIL"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="mt-4 text-[11px] text-center mx-auto flex items-center justify-center text-gray-500 hover:text-gray-700"
+>
+  Licensed Florida Private Investigative Agency · License No. A 3500243
+</a>
+
         <div class="max-w-7xl mx-auto flex justify-between items-center w-full md:p-5 p-3 md:h-24 h-20">
             <a data-aos="fade-right" href="./index.html" class="flex justify-center lg:justify-start">
                 <img src="./docs/assets/logo.png" class="md:h-20 h-16" alt="logo">
