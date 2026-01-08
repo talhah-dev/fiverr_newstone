@@ -37,7 +37,7 @@ input:user-invalid {
 }
 
 .homeBanner {
-    background: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.253)), url(./assets/banner.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.232), rgba(0, 0, 0, 0.253)), url(./assets/banner.jpg) center/cover no-repeat;
 }
 
 .swiper-button-prev:after,
@@ -70,4 +70,13 @@ input:user-invalid {
         0 0 10px #00000041,
         0 0 15px #00000041,
         0 0 20px #00000041;
+}
+
+.textShadow2 {
+    /* Black text */
+    text-shadow:
+        0 0 5px #00000021,
+        0 0 10px #00000021,
+        0 0 15px #00000021,
+        0 0 20px #00000021;
 }
