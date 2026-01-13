@@ -21,15 +21,15 @@ navbar.innerHTML = `
         </ul>
       </div>
 
-      <!-- Right: License (secondary, right aligned) + Contact -->
+      <!-- Right: License (desktop) + Contact -->
       <div class="hidden md:flex items-center gap-6">
         
-        <!-- License line (desktop only, subtle gray, not menu-like) -->
+        <!-- License line (desktop only) -->
         <a
           href="https://licensing.fdacs.gov/access/individual.aspx?TYPE=INDIVIDUAL&CATEGORY=&COUNTY=00&LICENSE=C%203500489&STATUS=IND_DETAIL"
           target="_blank"
           rel="noopener noreferrer"
-          class="hidden lg:block text-[12px] font-normal max-w-[14rem] text-gray-500 hover:text-gray-600 "
+          class="hidden lg:block text-[12px] font-normal max-w-[14rem] text-gray-500 hover:text-gray-600"
         >
           Licensed Florida Private Investigative Agency. License No. A3500243.
         </a>
@@ -78,6 +78,17 @@ navbar.innerHTML = `
         <li><a href="#howitwork"
             class="hover:text-[#3da1b9] mobileMenuCloseBtn text-nowrap transition-all duration-500">How It Works</a></li>
       </ul>
+
+      <!-- License link (mobile) -->
+      <a
+        href="https://licensing.fdacs.gov/access/individual.aspx?TYPE=INDIVIDUAL&CATEGORY=&COUNTY=00&LICENSE=C%203500489&STATUS=IND_DETAIL"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="block mt-6 text-[13px] leading-snug text-gray-600 hover:text-gray-800"
+      >
+        Licensed Florida Private Investigative Agency. License No. A3500243.
+      </a>
+
       <a href="#contact"
         class="text-center block mobileMenuCloseBtn w-full p-3 border text-nowrap border-zinc-700 mt-5 rounded-lg cursor-pointer">Contact us</a>
     </div>
